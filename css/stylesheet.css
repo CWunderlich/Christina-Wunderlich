@@ -10,8 +10,16 @@ comment
 
 html body {
   margin: 0;
-
 }
+
+
+a {
+  text-decoration: none;
+  border-bottom: none;
+  color: rgb(69, 69, 69);
+}
+
+
 
 h1 {
   color: rgb(69, 69, 69);
@@ -19,7 +27,7 @@ h1 {
   text-transform: uppercase;
   position: relative;
           top: 15px;
-          left: 50px;
+          left: 100px;
   float:inherit;
 }
 
@@ -41,6 +49,9 @@ p {
   margin: 0 10%;
   width: 30%;
 }
+
+
+
 
 img {
   float: right;
