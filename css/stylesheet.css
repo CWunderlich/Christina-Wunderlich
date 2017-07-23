@@ -2,22 +2,52 @@
 comment
 
 */
+}
+
+.main-nav {
+  float: right;
+}
+
 html body {
   margin: 0;
 
 }
 
-
 h1 {
-  color: Grey;
-  font-family: 'Oswald', sans-serif;
+  color: rgb(69, 69, 69);
+  font-family: 'Blue Mono', sans-serif;
   text-transform: uppercase;
+  position: relative;
+          top: 15px;
+          left: 50px;
+  float:inherit;
+}
+
+
+ul {
+  color: Black;
+  font-family: 'Blue Mono', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Blue Mono', sans-serif;
+  text-transform: uppercase;
   font-size: 14px;
+  width: 60%;
+  position: absolute;
+  float: inherit;
+  margin: 0 10%;
+  width: 30%;
 }
+
+img {
+  float: right;
+  margin: 0 20%;
+}
+
+
 
 .container {
   max-width: 940px;
