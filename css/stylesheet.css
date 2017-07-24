@@ -12,7 +12,7 @@ html body {
   margin: 0;
 }
 
-
+/* Links */
 a {
   text-decoration: none;
   border-bottom: none;
@@ -20,47 +20,111 @@ a {
 }
 
 
-
+/* Menüseiten Christina Wunderlich Titel*/
 h1 {
   color: rgb(69, 69, 69);
+  font-size: 35px;
   font-family: 'Blue Mono', sans-serif;
   text-transform: uppercase;
   position: relative;
           top: 15px;
-          left: 100px;
-  float:inherit;
+          left: 250px;
+  float: none;
 }
 
+/* Startseite Christina Wunderlich Titel*/
+h2 {
+  color: rgb(133, 133, 133);
+  font-size: 45px;
+  font-family: 'Blue Mono', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+          top: 200px;
+          left: 250px;
+  float: none;
+}
+
+/* Menüseiten Projects und About*/
+h3 {
+  color: rgb(69, 69, 69);
+  font-size: 18px;
+  font-family: 'Blue Mono', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+          top: 50px;
+          left: 50px;
+  float: none;
+}
+
+/* Startseite Projects und About*/
+h4 {
+  color: rgb(69, 69, 69);
+  font-size: 21px;
+  font-family: 'Blue Mono', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+          top: 50px;
+          left: 50px;
+  float: none;
+}
 
 ul {
   color: Black;
   font-family: 'Blue Mono', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
+  position: fixed;
+          bottom: 0;
+          right: 0
 }
 
 p {
+  display: block;
   font-family: 'Blue Mono', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   width: 60%;
   position: absolute;
-  float: inherit;
+  float: left;
   margin: 0 10%;
   width: 30%;
 }
 
+.box {
+  width: 60%;
+  position: absolute;
+  float: left;
+  margin: 0 10%;
 
+}
 
 
 img {
+  position:static;
   float: right;
   margin: 0 20%;
 }
 
 
-
 .container {
   max-width: 940px;
   margin: 0 auto;
+}
+
+
+
+div {
+  border: 6px solid #949599;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  color: rgb(69, 69, 69);
+  font-size: 21px;
+  font-family: 'Blue Mono', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+          top: 50px;
+          left: 50px;
+  float: none;
 }
