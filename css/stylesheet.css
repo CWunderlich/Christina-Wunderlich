@@ -9,7 +9,7 @@ comment
 }
 
 html body {
-  margin: 0;
+  margin: 100;
 }
 
 /* Links */
@@ -40,8 +40,8 @@ h2 {
   text-transform: uppercase;
   position: relative;
           top: 200px;
-          left: 250px;
-  float: none;
+          left: 220px;
+  float: left;
 }
 
 /* Menüseiten Projects und About*/
@@ -56,27 +56,9 @@ h3 {
   float: none;
 }
 
-/* Startseite Projects und About*/
-h4 {
-  color: rgb(69, 69, 69);
-  font-size: 21px;
-  font-family: 'Blue Mono', sans-serif;
-  text-transform: uppercase;
-  position: relative;
-          top: 50px;
-          left: 50px;
-  float: none;
-}
 
-ul {
-  color: Black;
-  font-family: 'Blue Mono', sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  position: fixed;
-          bottom: 0;
-          right: 0
-}
+
+
 
 p {
   display: block;
@@ -91,10 +73,13 @@ p {
 }
 
 .box {
-  width: 60%;
-  position: absolute;
-  float: left;
+  width: 30%;
+  position: relative;
+          top: 250px;
+          left: 250px;
+  float: none;
   margin: 0 10%;
+
 
 }
 
@@ -112,19 +97,43 @@ img {
 }
 
 
+/* Box Startseite Projects und About*/
 
-div {
-  border: 6px solid #949599;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  width: 400px;
-  color: rgb(69, 69, 69);
-  font-size: 21px;
-  font-family: 'Blue Mono', sans-serif;
-  text-transform: uppercase;
-  position: relative;
-          top: 50px;
-          left: 50px;
-  float: none;
+
+
+ul {
+    list-style-type: none;
+    margin: 1000;
+    padding: 100;
+    max-width: 940px;
+
+    overflow: hidden;
+    background-color: rgb(69, 69, 69);;
+    color: Black;
+    font-family: 'Blue Mono', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+            top: 80px;
+            left: 200px;
+
+
+        width: 575px;
+    float: left;
+
 }
+
+li {
+    float: inherit;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px 85px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(69, 69, 69);
